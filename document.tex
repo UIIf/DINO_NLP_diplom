@@ -1,0 +1,75 @@
+\documentclass{fefu}
+\fefuloadstyle{imct}
+
+\usepackage{subfiles}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{amssymb}
+\usepackage{nicefrac}
+\usepackage{hyperref}
+\usepackage{minted}
+\usepackage{multirow}
+\usepackage{subcaption}
+\usepackage{placeins}
+\addbibresource{references.bib}
+\graphicspath{{./images/}}
+
+\newcommand{\pa}[1]{\left(#1\right)}
+\newcommand{\code}[2][text]{\mintinline{#1}{#2}}
+\newcommand{\paramrow}[4][-]{\code{#2} & \code{#3} & \code{#1} & #4\\}
+\newcommand{\paramrowlistvalue}[4][]{\code{#2} & \code{#3} & \code{[#1]} & #4\\}
+\newcommand{\niceref}[2]{\hyperref[#1]{#2 \ref{#1}}}
+\DeclareMathOperator{\sech}{sech}
+
+\author{Петров Сергей Дмитриевич}
+\setgroup{М9119-09.04.01иибд}
+\setfaculty{09.04.01 Информатика и вычислительная техника}
+\setprogram{Искусственный интеллект и большие данные}
+\setsupervisor{Тыщено Андрей Геннадьевич}{ } %TODO
+\setdirector{Мирин Илья Геннадьевич}{}%TODO
+\setdeputy{Сапрыкина Елена Валерьевна}{к.э.н.}%TODO
+\setreviewer{Луньков Андрей Аллександрович}{зав. лаб.  НЦВИ ИОФ РАН, к.ф.-м.н.}%TODO
+\setexportsupervisor{Сапрыкина Елена Валерьевна}{зам. директора ШЦЭ}%TODO
+\setsecretary{Тихонова Татьяна Сергеевна}{}%TODO
+\title{Извлечение признакового представления исходного кода с использованием методов обучения без учителя для downstream обучения моделей}
+\setconsultant{Тыщено Андрей Геннадьевич}%TODO
+
+
+\date{07.07.21}
+
+% \disablehyphenation %OPTIONAL
+
+\makeglossaries
+
+% \newacronym{pml}{PML}{\hyperref[sec::PML]{Perfectly Matched Layers}}
+% \newacronym{ssp}{SSP}{\hyperref[sec::root_ssp]{Split-Step Pad\'e}}
+% \newacronym{sel}{SEL}{\hyperref[sec::SEL]{Sound Exposure Level}}
+% \newacronym{mpe}{МПУ}{Модовое Параболическое Уравнение}
+% \newacronym{wampe}{ШМПУ}{Широкоугольное Модовое Параболическое Уравнение}
+
+\begin{document}
+
+    \maketitle{thesis}
+    \makethesistitlebackside[1.2]
+    \title{Извлечение признакового представления исходного кода с использованием \hfill\null\\ методов обучения без учителя для downstream обучения моделей\hfill\null}
+    \subfile{subfiles/annotation.tex}
+    \newpage
+    \setcounter{page}{4}
+    % \subfile{subfiles/abstract.tex}
+    \tableofcontents
+    % \subfile{subfiles/introduction.tex}
+    \newpage
+    % \printglossary[type=\acronymtype,title={Глоссарий}]
+    \newpage
+    % \subfile{subfiles/subject.tex}
+    \newpage
+    % \subfile{subfiles/math.tex}
+    \newpage
+    % \subfile{subfiles/program.tex}
+    \newpage
+    % \subfile{subfiles/conclusion.tex}
+    \newpage
+    \printbibliography
+    \newpage
+    % \subfile{subfiles/appendices.tex}
+\end{document}

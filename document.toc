@@ -1,0 +1,3 @@
+\xpginauxfiletrue 
+\selectlanguage *{russian}
+\contentsline {section}{\numberline {1}Аннотация}{2}{section.1}%
