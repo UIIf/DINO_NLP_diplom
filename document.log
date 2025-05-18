@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.5.7)  18 MAY 2025 09:14
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.5.7)  18 MAY 2025 15:56
  system commands enabled.
 **document.tex
 (./document.tex
@@ -1223,10 +1223,10 @@ numbers
 Module polyglossia Info: Language data for russian
 (polyglossia)            synonyms	
 (polyglossia)            lefthyphenmin	2
-(polyglossia)            patterns	hyph-ru.pat.txt
 (polyglossia)            hyphenation	hyph-ru.hyp.txt
 (polyglossia)            loader	loadhyph-ru.tex
-(polyglossia)            righthyphenmin	2 on input line 22
+(polyglossia)            righthyphenmin	2
+(polyglossia)            patterns	hyph-ru.pat.txt on input line 22
 Module polyglossia Info: Language russian was not yet loaded; created with id 3 
 on input line 22
 Package polyglossia Info: Option: Russian, numerals=arabic.
@@ -1489,32 +1489,32 @@ runsystem(rm document.aex)...executed.
 (./document.aux)
 \openout1 = document.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 50.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 5
-0.
+1.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-Package hyperref Info: Link coloring OFF on input line 50.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+Package hyperref Info: Link coloring OFF on input line 51.
 
 (./document.out) (./document.out)
 \@outlinefile=\write9
@@ -1549,64 +1549,64 @@ Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 50.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 50.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 50.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 50.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 50.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 50.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 50.
-LaTeX Font Info:    Redeclaring math accent \check on input line 50.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 50.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 50.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 50.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 50.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 50.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 50.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 50.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 50.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 50.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 50.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 50.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 50.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 50.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 50.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 50.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 50.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 51.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 51.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 51.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 51.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 51.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 51.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 51.
+LaTeX Font Info:    Redeclaring math accent \check on input line 51.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 51.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 51.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 51.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 51.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 51.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 51.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 51.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 51.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 51.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 51.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 51.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 51.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 51.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 51.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 51.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 51.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 50.
+(Font)              `operators' in the math version `normal' on input line 51.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 5
-0.
+1.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 50.
+(Font)              `operators' in the math version `bold' on input line 51.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 
-50.
+51.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on 
-input line 50.
+input line 51.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line
- 50.
+ 51.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 
-50.
+51.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 50.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 51.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/CourierNew(0)/m/n on input line 50.
+(Font)                  OT1/cmtt/m/n --> TU/CourierNew(0)/m/n on input line 51.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on 
-input line 50.
+input line 51.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/b/it on input lin
-e 50.
+e 51.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 50.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 51.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/CourierNew(0)/b/n on input line 50.
+(Font)                  OT1/cmtt/m/n --> TU/CourierNew(0)/b/n on input line 51.
 
 
 *geometry* driver: auto-detecting
@@ -1711,18 +1711,18 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'document.bbl' not found.
 
 No file document.bbl.
-Package biblatex Info: Reference section=0 on input line 50.
-Package biblatex Info: Reference segment=0 on input line 50.
-LaTeX Info: Redefining \rmfamily on input line 50.
-LaTeX Info: Redefining \sffamily on input line 50.
-LaTeX Info: Redefining \ttfamily on input line 50.
+Package biblatex Info: Reference section=0 on input line 51.
+Package biblatex Info: Reference segment=0 on input line 51.
+LaTeX Info: Redefining \rmfamily on input line 51.
+LaTeX Info: Redefining \sffamily on input line 51.
+LaTeX Info: Redefining \ttfamily on input line 51.
 
 Package polyglossia Warning: Asking to add empty feature to latin font(Script="
-latin" to scripttag "") on input line 50.
+latin" to scripttag "") on input line 51.
 
 
 Package polyglossia Warning: Asking to add empty feature to latin font (Languag
-e="Russian" to langtag "") on input line 50.
+e="Russian" to langtag "") on input line 51.
 
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: luatex
@@ -1756,26 +1756,26 @@ e="Russian" to langtag "") on input line 50.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<document-fefu.png, id=8, 190.7125pt x 385.44pt>
+<document-fefu.png, id=36, 190.7125pt x 385.44pt>
 File: document-fefu.png Graphic file (type png)
 <use document-fefu.png>
-Package luatex.def Info: document-fefu.png  used on input line 52.
+Package luatex.def Info: document-fefu.png  used on input line 53.
 (luatex.def)             Requested size: 24.79349pt x 50.10895pt.
 
-Underfull \vbox (badness 10000) detected at line 52
+Underfull \vbox (badness 10000) detected at line 53
  []
 
 
-Underfull \vbox (badness 10000) detected at line 52
+Underfull \vbox (badness 10000) detected at line 53
  []
 
 
 Package polyglossia Warning: Asking to add empty feature to latin font(Script="
-latin" to scripttag "") on input line 52.
+latin" to scripttag "") on input line 53.
 
 
 Package polyglossia Warning: Asking to add empty feature to latin font (Languag
-e="Russian" to langtag "") on input line 52.
+e="Russian" to langtag "") on input line 53.
 
 [1
 
@@ -1818,37 +1818,32 @@ Package geometry Warning: `a4paper': not available in `\newgeometry'; skipped.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 53.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 54.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 53.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 54.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \vbox (4.7602pt too high) detected at line 53
+Overfull \vbox (4.7602pt too high) detected at line 54
  []
 
 
-Overfull \hbox (1.14171pt too wide) in paragraph at lines 53--53
+Overfull \hbox (1.14171pt too wide) in paragraph at lines 54--54
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
-
- []
-
-
 Package polyglossia Warning: Asking to add empty feature to latin font(Script="
-latin" to scripttag "") on input line 53.
+latin" to scripttag "") on input line 54.
 
 
 Package polyglossia Warning: Asking to add empty feature to latin font (Languag
-e="Russian" to langtag "") on input line 53.
+e="Russian" to langtag "") on input line 54.
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
@@ -1858,11 +1853,11 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 ] (./subfiles/annotation.tex)
 
 Package polyglossia Warning: Asking to add empty feature to latin font(Script="
-latin" to scripttag "") on input line 56.
+latin" to scripttag "") on input line 57.
 
 
 Package polyglossia Warning: Asking to add empty feature to latin font (Languag
-e="Russian" to langtag "") on input line 56.
+e="Russian" to langtag "") on input line 57.
 
 [2
 
@@ -1879,6 +1874,126 @@ latin" to scripttag "") on input line 2.
 Package polyglossia Warning: Asking to add empty feature to latin font (Languag
 e="Russian" to langtag "") on input line 2.
 
+
+Package polyglossia Warning: Asking to add empty feature to latin font(Script="
+latin" to scripttag "") on input line 5.
+
+
+Package polyglossia Warning: Asking to add empty feature to latin font (Languag
+e="Russian" to langtag "") on input line 5.
+
+
+Package polyglossia Warning: Asking to add empty feature to latin font(Script="
+latin" to scripttag "") on input line 5.
+
+
+Package polyglossia Warning: Asking to add empty feature to latin font (Languag
+e="Russian" to langtag "") on input line 5.
+
+
+Package polyglossia Warning: Asking to add empty feature to latin font(Script="
+latin" to scripttag "") on input line 5.
+
+
+Package polyglossia Warning: Asking to add empty feature to latin font (Languag
+e="Russian" to langtag "") on input line 5.
+
+
+Package polyglossia Warning: Asking to add empty feature to latin font(Script="
+latin" to scripttag "") on input line 6.
+
+
+Package polyglossia Warning: Asking to add empty feature to latin font (Languag
+e="Russian" to langtag "") on input line 6.
+
+
+Package polyglossia Warning: Asking to add empty feature to latin font(Script="
+latin" to scripttag "") on input line 6.
+
+
+Package polyglossia Warning: Asking to add empty feature to latin font (Languag
+e="Russian" to langtag "") on input line 6.
+
+
+Package polyglossia Warning: Asking to add empty feature to latin font(Script="
+latin" to scripttag "") on input line 6.
+
+
+Package polyglossia Warning: Asking to add empty feature to latin font (Languag
+e="Russian" to langtag "") on input line 6.
+
+
+Package polyglossia Warning: Asking to add empty feature to latin font(Script="
+latin" to scripttag "") on input line 7.
+
+
+Package polyglossia Warning: Asking to add empty feature to latin font (Languag
+e="Russian" to langtag "") on input line 7.
+
+
+Package polyglossia Warning: Asking to add empty feature to latin font(Script="
+latin" to scripttag "") on input line 7.
+
+
+Package polyglossia Warning: Asking to add empty feature to latin font (Languag
+e="Russian" to langtag "") on input line 7.
+
+
+Package polyglossia Warning: Asking to add empty feature to latin font(Script="
+latin" to scripttag "") on input line 7.
+
+
+Package polyglossia Warning: Asking to add empty feature to latin font (Languag
+e="Russian" to langtag "") on input line 7.
+
+
+Package polyglossia Warning: Asking to add empty feature to latin font(Script="
+latin" to scripttag "") on input line 8.
+
+
+Package polyglossia Warning: Asking to add empty feature to latin font (Languag
+e="Russian" to langtag "") on input line 8.
+
+
+Package polyglossia Warning: Asking to add empty feature to latin font(Script="
+latin" to scripttag "") on input line 8.
+
+
+Package polyglossia Warning: Asking to add empty feature to latin font (Languag
+e="Russian" to langtag "") on input line 8.
+
+
+Package polyglossia Warning: Asking to add empty feature to latin font(Script="
+latin" to scripttag "") on input line 8.
+
+
+Package polyglossia Warning: Asking to add empty feature to latin font (Languag
+e="Russian" to langtag "") on input line 8.
+
+
+Package polyglossia Warning: Asking to add empty feature to latin font(Script="
+latin" to scripttag "") on input line 10.
+
+
+Package polyglossia Warning: Asking to add empty feature to latin font (Languag
+e="Russian" to langtag "") on input line 10.
+
+
+Package polyglossia Warning: Asking to add empty feature to latin font(Script="
+latin" to scripttag "") on input line 10.
+
+
+Package polyglossia Warning: Asking to add empty feature to latin font (Languag
+e="Russian" to langtag "") on input line 10.
+
+
+Package polyglossia Warning: Asking to add empty feature to latin font(Script="
+latin" to scripttag "") on input line 10.
+
+
+Package polyglossia Warning: Asking to add empty feature to latin font (Languag
+e="Russian" to langtag "") on input line 10.
+
 )
 \tf@toc=\write10
 
@@ -1886,59 +2001,109 @@ e="Russian" to langtag "") on input line 2.
 
 
 Package polyglossia Warning: Asking to add empty feature to latin font(Script="
-latin" to scripttag "") on input line 59.
+latin" to scripttag "") on input line 60.
 
 
 Package polyglossia Warning: Asking to add empty feature to latin font (Languag
-e="Russian" to langtag "") on input line 59.
+e="Russian" to langtag "") on input line 60.
 
-[4]
+[4] (./subfiles/introduction.tex
+! You can't use `macro parameter character #' in vertical mode.
+<recently read> ##
+  
+l.8         \item #
+                 TODO Актуальность задачи
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
 
-LaTeX Warning: Empty bibliography on input line 73.
+)
+
+Package polyglossia Warning: Asking to add empty feature to latin font(Script="
+latin" to scripttag "") on input line 62.
+
+
+Package polyglossia Warning: Asking to add empty feature to latin font (Languag
+e="Russian" to langtag "") on input line 62.
+
+[5] (./subfiles/part_1.tex (./subfiles/part_1/study_with_teacher.tex
+
+Package polyglossia Warning: Asking to add empty feature to latin font(Script="
+latin" to scripttag "") on input line 10.
+
+
+Package polyglossia Warning: Asking to add empty feature to latin font (Languag
+e="Russian" to langtag "") on input line 10.
+
+[6]) (./subfiles/part_1/study_without_teacher.tex
+
+Package polyglossia Warning: Asking to add empty feature to latin font(Script="
+latin" to scripttag "") on input line 13.
+
+
+Package polyglossia Warning: Asking to add empty feature to latin font (Languag
+e="Russian" to langtag "") on input line 13.
+
+[7]) (./subfiles/part_1/reinforcement_learning.tex
+
+Package polyglossia Warning: Asking to add empty feature to latin font(Script="
+latin" to scripttag "") on input line 16.
+
+
+Package polyglossia Warning: Asking to add empty feature to latin font (Languag
+e="Russian" to langtag "") on input line 16.
+
+[8]))
+
+LaTeX Warning: Empty bibliography on input line 78.
 
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-(./document.aux)
+
+Package polyglossia Warning: Asking to add empty feature to latin font(Script="
+latin" to scripttag "") on input line 80.
+
+
+Package polyglossia Warning: Asking to add empty feature to latin font (Languag
+e="Russian" to langtag "") on input line 80.
+
+[9] (./document.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `document.out' has not changed.
-(rerunfilecheck)             Checksum: 549372DA3C3BBEEDA89398F1A91C86C6;115.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                document
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Checksum: 74291315F718FA9CF3BF89CC59323CD8;1412.
 Package logreq Info: Writing requests to 'document.run.xml'.
 
 \openout1 = document.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 42353 strings out of 476553
+ 42542 strings out of 476553
  125038,2373549 words of node,token memory allocated
- 854 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 10 attribute, 121 glue_spe
-c, 10 attribute_list, 4 write nodes
-   avail lists: 1:3,2:1384,3:450,4:176,5:759,6:158,7:3420,8:3,9:1418,10:8,11:444
-
- 63391 multiletter control sequences out of 65536+600000
+ 833 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 7 attribute, 121 glue_spec
+, 7 attribute_list, 1 write nodes
+   avail lists: 1:2,2:1390,3:453,4:176,5:1195,6:158,7:4645,8:2,9:1418,10:13,11:6
+50
+ 63489 multiletter control sequences out of 65536+600000
  79 fonts using 12784047 bytes
  109i,14n,128p,2476b,3207s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+warning  (pdf backend): unreferenced destination with name 'glo:ml'
+
+warning  (pdf backend): unreferenced destination with name 'glo:dino'
 </usr/share/fonts/truetype/msttcorefonts/Times_New_Roman_Bold.ttf></usr/share/fo
 nts/truetype/msttcorefonts/Times_New_Roman.ttf>
-Output written on document.pdf (4 pages, 99878 bytes).
+Output written on document.pdf (9 pages, 119915 bytes).
 
-PDF statistics: 56 PDF objects out of 1000 (max. 8388607)
- 35 compressed objects within 1 object stream
- 6 named destinations out of 1000 (max. 131072)
- 9 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 142 PDF objects out of 1000 (max. 8388607)
+ 115 compressed objects within 2 object streams
+ 28 named destinations out of 1000 (max. 131072)
+ 65 words of extra memory for PDF output out of 10000 (max. 100000000)
 

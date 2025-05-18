@@ -11,7 +11,7 @@
 \usepackage{multirow}
 \usepackage{subcaption}
 \usepackage{placeins}
-\addbibresource{references.bib}
+\addbibresource{/home/uiif/gr/diplom/references.bib}
 \graphicspath{{./images/}}
 
 \newcommand{\pa}[1]{\left(#1\right)}
@@ -25,19 +25,19 @@
 \setgroup{М9119-09.04.01иибд}
 \setfaculty{09.04.01 Информатика и вычислительная техника}
 \setprogram{Искусственный интеллект и большие данные}
-\setsupervisor{Тыщено Андрей Геннадьевич}{ } %TODO
-\setdirector{Мирин Илья Геннадьевич}{}%TODO
-\setdeputy{Сапрыкина Елена Валерьевна}{к.э.н.}%TODO
-\setreviewer{Луньков Андрей Аллександрович}{зав. лаб.  НЦВИ ИОФ РАН, к.ф.-м.н.}%TODO
-\setexportsupervisor{Сапрыкина Елена Валерьевна}{зам. директора ШЦЭ}%TODO
-\setsecretary{Тихонова Татьяна Сергеевна}{}%TODO
+\setsupervisor{Тыщено Андрей Геннадьевич}{ } %#TODO setsupervisor
+\setdirector{Мирин Илья Геннадьевич}{}%#TODO setdirector
+\setdeputy{Сапрыкина Елена Валерьевна}{к.э.н.}%#TODO setdeputy
+\setreviewer{Луньков Андрей Аллександрович}{зав. лаб.  НЦВИ ИОФ РАН, к.ф.-м.н.}%#TODO setreviewer
+\setexportsupervisor{Сапрыкина Елена Валерьевна}{зам. директора ШЦЭ}%#TODO setexportsupervisor
+\setsecretary{Тихонова Татьяна Сергеевна}{}%#TODO setsecretary
 \title{Извлечение признакового представления исходного кода с использованием методов обучения без учителя для downstream обучения моделей}
-\setconsultant{Тыщено Андрей Геннадьевич}%TODO
+\setconsultant{Тыщено Андрей Геннадьевич}%#TODO setconsultant
 
 
 \date{07.07.21}
 
-% \disablehyphenation %OPTIONAL
+\disablehyphenation %OPTIONAL
 
 \makeglossaries
 
@@ -45,7 +45,8 @@
 % \newacronym{ssp}{SSP}{\hyperref[sec::root_ssp]{Split-Step Pad\'e}}
 % \newacronym{sel}{SEL}{\hyperref[sec::SEL]{Sound Exposure Level}}
 % \newacronym{mpe}{МПУ}{Модовое Параболическое Уравнение}
-% \newacronym{wampe}{ШМПУ}{Широкоугольное Модовое Параболическое Уравнение}
+\newglossaryentry{dino}{name=DINO, description = (Distillation with No Labels)}
+\newacronym{ml}{ML}{Машинное обучение}
 
 \begin{document}
 
@@ -57,19 +58,23 @@
     \setcounter{page}{4}
     % \subfile{subfiles/abstract.tex}
     \tableofcontents
-    % \subfile{subfiles/introduction.tex}
+    \subfile{subfiles/introduction.tex}
     \newpage
-    % \printglossary[type=\acronymtype,title={Глоссарий}]
-    \newpage
-    % \subfile{subfiles/subject.tex}
-    \newpage
-    % \subfile{subfiles/math.tex}
-    \newpage
-    % \subfile{subfiles/program.tex}
-    \newpage
-    % \subfile{subfiles/conclusion.tex}
-    \newpage
+    \subfile{subfiles/part_1.tex}
+
+    % \newpage
+    % % \printglossary[type=\acronymtype,title={Глоссарий}]
+    % \newpage
+    % % \subfile{subfiles/subject.tex}
+    % \newpage
+    % % \subfile{subfiles/math.tex}
+    % \newpage
+    % % \subfile{subfiles/program.tex}
+    % \newpage
+    % % \subfile{subfiles/conclusion.tex}
+    % \newpage
     \printbibliography
-    \newpage
-    % \subfile{subfiles/appendices.tex}
+    % \newpage
+    
+    % \subfile{subfilesd/appendices.tex}
 \end{document}
